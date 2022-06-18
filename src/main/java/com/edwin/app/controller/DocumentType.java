@@ -3,6 +3,7 @@ package com.edwin.app.controller;
 public class DocumentType {
     private Integer id;
     private String description;
+    private int serie;
 
     public DocumentType() {
     }
@@ -35,4 +36,5 @@ public class DocumentType {
                 ", description='" + description + '\'' +
                 '}';
     }
+
 }
